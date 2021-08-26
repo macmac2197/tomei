@@ -1,0 +1,120 @@
+.form-header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form-header-title {
+    text-align: center;
+    background-color: #C5DCFA;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 21px;
+    color: #000;
+    padding: 6px;
+}
+
+.form-container {
+    margin: 20px;
+}
+
+.form-text {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.upload-photo {
+    text-align: center;
+}
+
+.upload-photo img {
+    border-radius: 68px;
+    width: 50%; 
+    object-fit: contain;
+}
+
+.upload-photo img:hover {
+    cursor: pointer;
+}
+
+.upload-photo p {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.form-group {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.input-label {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #C7C7C7;
+    padding: 0 0 5px 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.form-button {
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    float: right;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 16px;
+    color: #0a3977;
+    background-color: #C5DCFA;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #5fa1f7;
+    color: #fff;
+}
+
+.submit-btn img {
+    margin-left: 15px;
+    margin-bottom: -7px;
+}
+
+.form-message {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-left: 5px;
+}
+
+.text-error {
+    color: red;
+    text-align: center;
+}
+
+.text-success {
+    color: green;
+    text-align: center;
+}
